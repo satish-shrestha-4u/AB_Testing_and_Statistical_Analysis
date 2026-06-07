@@ -4,6 +4,8 @@ This project analyses a homepage button experiment for Eniac, a Spanish e-commer
 
 The goal was to evaluate whether changes in button text and colour improved user engagement compared with the original homepage call-to-action.
 
+This project demonstrates how A/B testing and statistical analysis can support product and UX decisions by separating small observed differences from meaningful business impact.
+
 ## Project Overview
 
 Eniac's homepage originally used a white **"SHOP NOW"** button, which generated a click-through rate of around 2%.
@@ -78,10 +80,6 @@ The workflow includes:
 Eniac should keep the original white **"SHOP NOW"** button.
 
 The tested alternatives did not provide a strong enough business case for replacing the control version. Future experiments should focus on clearer, product-specific call-to-action text while avoiding design changes that may reduce user engagement.
-
-## Purpose
-
-This project demonstrates how A/B testing and statistical analysis can support product and UX decisions by separating small observed differences from meaningful business impact.
 
 ## Repository Structure
 
