@@ -12,7 +12,7 @@ To test possible improvements, the UX team designed three alternative button ver
 
 The experiment was conducted from **November 2 to November 16, 2021** and compared four button versions:
 
-| Version | Button Text | Color | Type |
+| Version | Button Text | Colour | Type |
 |---|---|---|---|
 | A | SHOP NOW | White | Control |
 | B | SHOP NOW | Red | Variant |
@@ -22,6 +22,25 @@ The experiment was conducted from **November 2 to November 16, 2021** and compar
 ## Business Question
 
 Which homepage button version performs best, and should Eniac replace the original button?
+
+## Statistical Concepts Covered
+
+This project applies core statistical concepts used in A/B testing and business experimentation:
+
+- A/B testing methodology
+- Inferential statistics
+- Experimental design best practices
+- Data and sampling methods
+- Summarising numerical data
+- Probability and random variables
+- Probability distributions
+- Normal distribution
+- Sampling distribution of a statistic
+- Central Limit Theorem
+- Hypothesis testing
+- Chi-square test
+- P-value interpretation
+- Statistical decision-making
 
 ## Analysis Approach
 
@@ -37,17 +56,6 @@ The workflow includes:
 - Business interpretation of the results
 - Final recommendation based on statistical and practical impact
 
-## Topics Covered
-
-- A/B testing methodology
-- Hypothesis testing
-- Chi-square test
-- Pairwise statistical comparison
-- P-value interpretation
-- Click-through rate analysis
-- Statistical decision-making
-- Business interpretation of experiment results
-
 ## Tools Used
 
 - Python
@@ -58,20 +66,20 @@ The workflow includes:
 - Seaborn
 - Jupyter Notebook / Google Colab
 
-Key Findings
+## Key Findings
 
-* The button versions did not perform equally.
-* The red button variants performed worse than the original white button.
-* The text change alone showed limited improvement.
-* The original white “SHOP NOW” button remained the strongest option when both engagement and business impact were considered.
+- The button versions did not perform equally.
+- The red button variants performed worse than the original white button.
+- The text change alone showed limited improvement.
+- The original white **"SHOP NOW"** button remained the strongest option when both engagement and business impact were considered.
 
-Recommendation
+## Recommendation
 
-Eniac should keep the original white “SHOP NOW” button.
+Eniac should keep the original white **"SHOP NOW"** button.
 
 The tested alternatives did not provide a strong enough business case for replacing the control version. Future experiments should focus on clearer, product-specific call-to-action text while avoiding design changes that may reduce user engagement.
 
-Purpose
+## Purpose
 
 This project demonstrates how A/B testing and statistical analysis can support product and UX decisions by separating small observed differences from meaningful business impact.
 
@@ -80,4 +88,3 @@ This project demonstrates how A/B testing and statistical analysis can support p
 ```text
 notebooks/   Full A/B test analysis notebooks
 data/        Experiment data files
-images/      Charts and visual outputs
