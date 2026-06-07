@@ -84,5 +84,6 @@ The tested alternatives did not provide a strong enough business case for replac
 ## Repository Structure
 
 ```text
-notebooks/   Full A/B test analysis notebooks
-data/        Experiment data files
+notebooks/              Full A/B test analysis notebooks
+supporting_notebooks/   Statistical foundations and earlier analysis notebooks
+data/                   Experiment data files
