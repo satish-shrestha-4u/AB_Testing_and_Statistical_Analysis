@@ -6,7 +6,7 @@ These notebooks include refresher exercises, statistical foundations, hypothesis
 
 The final cleaned project notebook is stored in:
 
-`notebooks/eniac_ab_test_analysis_final.ipynb`
+`notebooks/eniac_ab_test_analysis_complete.ipynb`
 
 ## Files
 
