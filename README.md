@@ -1,23 +1,52 @@
-# AB_Testing_and_Statistical_Analysis
-A/B testing and statistical analysis for data-driven business decisions.
-
 # A/B Testing and Statistical Analysis
 
-This repository contains a collection of statistical analysis and A/B testing notebooks focused on evaluating data-driven business decisions.
+This project analyses a homepage button experiment for Eniac, a Spanish e-commerce company specialising in Apple products and related accessories.
 
-The project demonstrates how statistical methods can be used to test assumptions, compare groups, measure uncertainty, and interpret results in a business context.
+The goal was to evaluate whether changes in button text and colour improved user engagement compared with the original homepage call-to-action.
+
+## Project Overview
+
+Eniac's homepage originally used a white **"SHOP NOW"** button, which generated a click-through rate of around 2%.
+
+To test possible improvements, the UX team designed three alternative button versions using different combinations of text and colour.
+
+The experiment was conducted from **November 2 to November 16, 2021** and compared four button versions:
+
+| Version | Button Text | Color | Type |
+|---|---|---|---|
+| A | SHOP NOW | White | Control |
+| B | SHOP NOW | Red | Variant |
+| C | SEE DEALS | White | Variant |
+| D | SEE DEALS | Red | Variant |
+
+## Business Question
+
+Which homepage button version performs best, and should Eniac replace the original button?
+
+## Analysis Approach
+
+The analysis focuses on whether the new button designs created a statistically meaningful improvement in user engagement.
+
+The workflow includes:
+
+- Data quality checks
+- Click-through rate calculation
+- Contingency table creation
+- Chi-square test for statistical significance
+- Pairwise comparison between button versions
+- Business interpretation of the results
+- Final recommendation based on statistical and practical impact
 
 ## Topics Covered
 
 - A/B testing methodology
-- Central Limit Theorem
-- Confidence intervals
 - Hypothesis testing
-- One-sample t-test
-- Two-sample t-test
 - Chi-square test
+- Pairwise statistical comparison
 - P-value interpretation
+- Click-through rate analysis
 - Statistical decision-making
+- Business interpretation of experiment results
 
 ## Tools Used
 
@@ -29,9 +58,26 @@ The project demonstrates how statistical methods can be used to test assumptions
 - Seaborn
 - Jupyter Notebook / Google Colab
 
+Key Findings
+
+* The button versions did not perform equally.
+* The red button variants performed worse than the original white button.
+* The text change alone showed limited improvement.
+* The original white “SHOP NOW” button remained the strongest option when both engagement and business impact were considered.
+
+Recommendation
+
+Eniac should keep the original white “SHOP NOW” button.
+
+The tested alternatives did not provide a strong enough business case for replacing the control version. Future experiments should focus on clearer, product-specific call-to-action text while avoiding design changes that may reduce user engagement.
+
+Purpose
+
+This project demonstrates how A/B testing and statistical analysis can support product and UX decisions by separating small observed differences from meaningful business impact.
+
 ## Repository Structure
 
 ```text
-notebooks/   Statistical analysis and A/B testing notebooks
-data/        Dataset notes or supporting data files
+notebooks/   Full A/B test analysis notebooks
+data/        Experiment data files
 images/      Charts and visual outputs
