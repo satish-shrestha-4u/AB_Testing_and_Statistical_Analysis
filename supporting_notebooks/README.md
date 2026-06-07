@@ -1,6 +1,12 @@
-# Notebooks
+# Supporting Notebooks
 
-This folder contains the statistical analysis and A/B testing notebooks used in this project.
+This folder contains supporting notebooks used during the development of the A/B testing and statistical analysis project.
+
+These notebooks include refresher exercises, statistical foundations, hypothesis testing practice, and earlier versions of the Eniac A/B test analysis.
+
+The final cleaned project notebook is stored in:
+
+`notebooks/eniac_ab_test_analysis_final.ipynb`
 
 ## Files
 
